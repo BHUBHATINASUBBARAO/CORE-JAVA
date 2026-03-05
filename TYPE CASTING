@@ -1,0 +1,113 @@
+	TYPE CASTING 
+—------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+TYPE CASTING ➖
+—--------------------
+ Converting one data type to another data type is known as “type casting “.
+There are mainly 2 types 
+PRIMITIVE TYPE CASTING
+NON -PRIMITIVE TYPE CASTING ( POLY).
+
+
+PRIMITIVE TYPE CASTING ➖
+—------------------------------------------------------
+Converting one primitive data type to another primitive data type is known as “ primitive type casting “.
+
+
+There are 2 types 
+				1.IMPLICIT TYPE CASTING
+2. EXPLICIT TYPE CASTING
+
+
+1.IMPLICIT TYPE CASTING ➖
+—----------------------------------------
+
+
+Converting smaller type of data into larger type of data implicitly done by the compiler
+Is known as “ implicit type casting “.
+
+
+Implicit type casting is also known as” widening “.
+
+
+WIDENING ➖
+—----------------------
+ Converting smaller type of data into larger type of data is known as “ widening “.
+There is no loss of data 
+It is also known as “lossless conversion “
+
+
+Ex:-
+—---
+class  Demo
+{
+public static void main(String []args)
+{
+int a=10;
+System.out.println(a);
+long d=a;
+System.out.println(d);
+}
+}
+Op:
+—--
+10
+10
+
+
+EXPLICIT TYPE CASTING ➖
+—---------------------------------------------------
+Converting larger type of data into smaller type of data is known as “ explicit type casting “
+
+
+Explicit type casting is also known as “narrowing “
+
+
+NARROWING ➖
+—------------------------
+Converting larger type of data to the smaller type of data  is known as “ narrowing “
+
+There is a loss of data 
+So it is also known as “lossy conversion”.
+
+Ex:-
+—-
+class Demo{
+public static void main(String []args)
+{
+int a=420;
+byte b=a;
+System.out.println(b);
+}
+}
+
+Op:-
+—-
+Demo.java:5: error: incompatible types: possible lossy conversion from int to byte
+byte b=a;
+       ^
+
+Ex2:-
+—----
+class Widening
+{
+public static void main(String []args)
+{
+double d= 12.5;
+int a=(int)d;
+System.out.println(a);
+}
+}
+
+Op:-
+—-
+12
+NOTE ➖
+—-------
+Boolean conversions is not  possible because boolean data  is a pre defined data
