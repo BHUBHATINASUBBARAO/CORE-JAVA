@@ -1,0 +1,113 @@
+
+					TOKENS 
+—------------------------------------------------------------------------------------------------------------------
+Tokens are the smallest unit of a java code 
+OR
+ individual part of java code
+
+In java there are 4 types of tokens 
+					1.KEYWORDS
+					2.IDENTIFIERS
+					3.SEPERATORS
+					4.LITERALS
+
+1.KEYWORDS ➖
+—--------------------
+Keywords are predefined words with lowercase
+Java is a case sensitive language . whenever we are declaring the keywords we have to mention it in lowercase
+In java there are 50 keywords
+Ex:-
+—--
+
+
+
+
+
+2. IDENTIFIERS ➖
+—-------------------------
+Identifiers is nothing but name given to the java components ( classname, variable name, method name).
+
+IDENTIFIER RULES ➖
+—-----------------------------
+Identifier should not start with number
+Identifier can contain numbers
+Keywords is not allowed
+Special symbols is not allowed except _, $.
+
+IT RULES FOR IDENTIFIERS
+—------------------------------------------
+
+IT RULES FOR CLASSNAME ➖
+—------------------------------------------
+Classname should start with uppercase
+If class name contains more than one word each and every word of first letter should be uppercase
+\IDENTIFIER RULES FOR VARIABLENAME & METHOD ➖
+—--------------------------------------------------------------------------------
+Variable name/ methodname should start with lowercase
+If variablename / method name contains more than one word  first letter should be lowercase and second word of the first letter should be uppercase
+
+3.SEPERATORS ➖
+—-----------------------------
+In java we have blocks and statements
+To separate the blocks and statements  we are using separators
+
+          {
+	// blocks
+	}
+	;----->statements
+
+4. LITERALS ➖
+—-----------------------
+Data or information giving to the java code
+There are 4 types of literals
+			1.  NUMBER
+					1.INTEGER
+					2.DECIMAL
+			2. CHARACTER
+			3. STRING
+			4. BOOLEAN
+
+1.NUMBER ➖
+—------------------
+Whenever we are declaring the numbers we can declare it directly.
+Ex:-
+—--
+	System.out.println(100);
+	System.out.println(10.2);
+
+
+2.CHARACTER ➖
+—------------------------
+Whenever we are declaring the characters we can declare inside the single quotes
+Inside the single quotes only one character is allowed
+
+Ex:-
+—-----
+//System.out.println(h);CTE
+System.out.println('h');
+System.out.println('1');
+//System.out.println('10');//CTE
+
+
+3.STRING ➖
+—-----------------
+String is group of characters
+Whenever we are declaring the string we have to include double quotes
+There is no limitations for string
+
+Ex:-
+—---
+System.out.println("sheela420");
+System.out.println("1731285");
+
+
+4.BOOLEAN ➖
+—-------------------
+Boolean data is a predefined data
+There are 2 types 
+true
+false
+Ex:-
+—--\
+System.out.println(true);
+System.out.println(false);
