@@ -1,0 +1,84 @@
+FEATURES OF JAVA ➖
+—----------------------------------------------
+			1.SIMPLE
+			2 SECURE
+			3.OBJECTORIENTED
+			4.PLATFORM INDEPENDENT
+			5.PORTABLE
+			6.ROBUST
+			7.HIGHPERFORMANCE
+
+1.SIMPLE ➖
+—----------------
+Java is simple . because  it is a high level programming language and most of the syntax is derived from c,c++
+
+2.SECURE ➖
+—--------------------
+Java language is highly secured language because of its internal tool called jvm.
+
+3. OBJECT ORIENTED ➖
+—--------------------------------
+In java we have non static variables and non static methods, if we ant to access non static methods and non static variables we have to take a help of objects .this makes java is an object oritend.
+
+Q. IS JAVA IS 100% OBJECTORIENTED ?
+Ans ➖ no  , java is partially object oriented because java supports primitive data types.
+
+4.PLATFORMINDEPENDENT ➖
+—-----------------------------------------------
+Java language follows the principle of “WORA” (write once run anywhere”)
+Once we write the code we can run it on any platform
+
+Q. WHAT MAKES JAVA PLATFORM INDEPENDENT ?
+ANS ➖byte code
+
+
+—------
+
+5.PORTABLE ➖
+—--------------------- 
+Java byte code we can transfer to any platform it is not depend n any software (os).
+
+6.ROBUST ➖
+—--------------------
+Java is robust because  of 
+Java is strong in memory management
+Java is good in multithreading
+Java is strong in exception handling
+
+
+7.HIGH PERFORMANCE ➖
+—-----------------------------------
+Java uses interpreter  so java is never fast as compiled languages
+Still java enables fast performance because of “JITC” ( just in time compiler)
+
+
+
+JDK ➖
+—-----------
+Jdk is abbreviated as “ java development kit “
+Jdk is a software
+When we need to develop any java based applications we are in need of JDK
+It is physically exist
+JDK consist of jre and development tools
+
+
+           JRE ➖
+           —----------
+JRE  is abbreviated as “ JAVA RUN TIME ENVIRONMENT “
+It is used to provide run time environment for java code 
+It is physically exist
+If u want to execute the code minimum required is JRE
+JRE  consist of jvm and libraries
+
+3.JVM ➖
+—-----------
+Jvm is abbreviated as “ java virtual machine “
+Jvm is responsible for execution
+TASK OF JVM :- 
+Load the code
+Verify the code
+Execute the code
+Diagram ➖
+—------------------
+
+
