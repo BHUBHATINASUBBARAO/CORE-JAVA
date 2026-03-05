@@ -1,0 +1,799 @@
+
+
+                                        CONTROL STATEMENTS
+—-------------------------------------------------------------------------------------------------------------------
+Control  statements are used to control the execution flow of the programme
+In java there are 3 types of control statements
+			1.DECISION MAKING STATEMENTS
+			2.LOOPING STATEMENTS
+			3. SWITCH /JUMPING STATEMENTS
+
+
+
+
+
+
+
+
+
+DECISION MAKING STATEMENTS ➖
+—----------------------------------------------------------
+ There are 4 types of decision making statements 
+				1.IF 
+				2.IF ELSE
+				3. ELSE IF 
+				4.NESTED IF
+IF ➖
+—--------------
+If statement decides which line of code should execute ,which line of the code should not execute .
+Syntax ➖
+—----------
+    if (condition)
+{
+// stataments
+}
+
+Ex:-
+—--
+class Demo
+{
+public static void main(String [] nagchandu)
+{
+int a=10;
+int b=20;
+if(a>b)
+{
+System.out.println(a);
+}
+}
+}
+Op:-
+—----
+Ntg
+
+Ex:-
+—----
+class Demo
+{
+public static void main(String [] nagchandu)
+{
+int a=10;
+int b=20;
+if(a<b)
+{
+System.out.println(a);
+}
+}
+}
+Op:- 10
+
+
+IF ELSE:-
+—--------------------
+If else statements will execute based on the condition
+Syntax ➖
+—-------
+if(condition)
+{
+//statements
+}
+Else
+{
+//statements
+}
+
+If block condition is true if blocks statements will execute
+If block condition is false then else block statements will execute
+
+
+Ex:-
+—----
+class Demo
+{
+public static void main(String [] nagchandu)
+{
+ int a=10;
+int b=20;
+if(a>b)
+{
+System.out.println(a);
+}
+else{
+System.out.println(b);
+}
+}
+}
+Op:-20
+—--
+
+NOTE ➖ in the above programme if block condition is false so else statements will be executed
+
+Q. wap to print greatest number among 2 number ?
+Ans :-
+class Demo
+{
+public static void main(String []args)
+{
+int a=10;
+int b=15;
+if(a>b)
+{
+System.out.println(a+" is greatest");
+}
+else{
+System.out.println(b+" is greatest");
+}
+}
+Op:-—- 15
+
+Q. wap to print smallest number among 2 numbers ?
+Ans :-
+class Demo
+{
+public static void main(String []args)
+{
+int a=10;
+int b=15;
+if(a<b)
+{
+System.out.println(a+"  is smallest");
+}
+else{
+System.out.println(b+" is smallest ");
+}
+}
+}
+Op:- a is smallest
+
+Q. WAP TO CHECK WETHER THE PERSON IS ELIGIBLE TO REGISTER SHADI.COM OR NOT ?
+ANS ➖
+class Shadi
+{
+public static void main(String []args)
+{
+String name="sheela";
+int age= 99;
+if(age>21)
+{
+System.out.println(name+" your are elijable to register shadi.com");
+}
+else
+{
+System.out.println(name+" you ar not elijible to register shad.com");
+}
+}
+}
+Op:-
+sheela your are elijable to register shadi.com
+
+
+
+
+      TASK ➖
+      —----------
+Wap to check wether the person is eligible to register voter id ?
+Wap to withdraw money in atm ?
+Wap to check wether the number is even or odd ?
+
+
+ELSE IF ➖
+—-----------
+ If user or programmer wants to check multiple conditions then user have to go for else if statement
+Syntax ➖
+—--------
+ if(condition)
+{
+//statement
+}
+Else if(condition)
+{
+//statement
+}
+Else if(condition)
+{
+//statement
+}
+Else {
+//statement
+}
+
+TASK:
+—-------
+Wap to print greatest number among 4 numbers?
+Wap to print smallest number among 4 numbers ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				LOOPING STATEMENTS
+—-------------------------------------------------------------------------------------------------------------
+If user or programmer wants to execute set of lines of code n number of times then we have to use looping statements
+
+In java there are 3 types 
+While
+Do while
+For 
+
+While loop ➖
+—----------------------------
+When the number of iterations is not fixed then we have to use while loop.
+While loop is also known as “ entry controlled loop “
+Syntax ➖
+—-----------
+ while(condition)
+{
+//statement
+}
+
+Ex:-
+—--
+class Demo
+{
+public static void main(String []args)
+{
+int a =1;
+ while(a>5)
+{
+System.out.println("ee sala cup namdu");
+}
+}
+}
+Op:- ntg 
+
+NOTE ➖
+—------
+ Condition is false 
+
+Ex2:-
+—----
+class Demo
+{
+public static void main(String []args)
+{
+int a =5;
+ while(a>1)
+{
+System.out.println("ee sala cup namdu");
+}
+}
+}
+
+Op:-
+—---
+Ee sala cup namdu
+—
+—-
+—
+
+
+Ex:-
+—---
+class Demo
+{
+public static void main(String []args)
+{
+int a =1;
+ while(a<5)
+{
+System.out.println("ee sala cup namdu");
+a++;
+}
+}
+}
+
+ee sala cup namdu
+ee sala cup namdu
+ee sala cup namdu
+ee sala cup namdu
+
+
+DO -WHILE ➖
+—---------------------
+Do while loop is  a exit controlled loop.
+ When we dont know the number of iterations and atleast once wants to execute then we have to use do while loop.
+Syntax ➖-
+
+Do{
+// statement
+}
+while(condition);
+
+
+Ex:-
+—-
+class Demo
+{
+public static void main(String []args)
+{
+int a =1;
+do{
+System.out.println(" ee sala cup namdu");
+}
+while(a>5);
+ }
+}
+
+Op:- 
+Ee sala cup namdu
+
+NOTE:-
+—--------
+ In the above programme condition is false .  so we are getting output one time
+ Because  if condition false so do while loop print the statement once .
+Ex:-
+—---
+
+class Demo
+{
+public static void main(String []args)
+{
+int a =1;
+do{
+System.out.println(" ee sala cup namdu");
+a++;
+}
+while(a<5);
+ }
+}
+Op ➖
+—---
+ee sala cup namdu
+ee sala cup namdu
+ee sala cup namdu
+ee sala cup namdu
+
+
+
+
+
+
+Q. WHAT IS THE DIFF BETWEEN WHILE AND DO WHILE
+?
+ANS ➖
+—----
+			WHILE 					DO WHILE
+
+First it will check the condition		* first it will print the statement once
+Then it will execute				then it will check the condition
+
+Minimum iteration for while loop 0.            * minimum iteration for do while loop is 1
+Entry controlled loop				* exit controlled loop
+We cant use semicolon end of the while      * we have to use semicolon end of the do while loop
+Loop
+
+TASK ➖
+—------
+WAP TO PRINT NUMBERS FROM 1 TO 100 BY USING WHILE LOOP?
+WAP TO PRIT NUMBERS  FROM 100 TO 1 BY USING WHILE LOOP ?
+
+
+
+FOR LOOP  ➖
+—---------------------
+When we  know the number of iterations we have to use for loop.
+
+			Or
+When we know the starting point and ending point then we have to use for loop
+
+
+Syntax ➖
+—-----------
+for( intialization ;condition; inc/dec)
+{
+//statement
+}
+
+
+Q. WAP TO PRINT NUMBERS FROM 1 TO 10 ?
+
+ANS ➖class Sample
+{
+public static void main(String []args)
+{
+for(int i=1;i<=10;i++)
+{
+System.out.println(i);
+}
+}
+}
+
+Q.WAP TO PRINT NUMBERS FROM 10 TO 1 ?
+Ans ➖
+class Sample
+{
+public static void main(String []args)
+{
+for(int i =10; i>=1; i--)
+{
+System.out.println(i);
+}
+}
+}
+
+
+3.WAP TO PRINT EVEN NUMBERS FROM 1 TO 50 ?
+Ans:-
+—----
+class Sample
+{
+public static void main(String []args)
+{
+for(int i =1; i<=50; i++)
+{
+if(i%2==0)
+{
+System.out.println(i);
+}
+}
+}
+}
+
+
+
+4. WAP TO PRINT ODD NUMBERS BETWEEN 1 TO 50 ?
+ANS ➖
+class Sample
+{
+public static void main(String []args)
+{
+for(int i =1; i<=50; i++)
+{
+if(i%2!=0)
+{
+System.out.println(i);
+}
+}
+}
+}
+
+
+5. WAP TO PRINT EVEN ,ODD NUMBERS BETWEEN 1TO 50 ?
+ANS ➖
+—----
+class Sample
+{
+public static void main(String []args)
+{
+for(int i =1; i<=50; i++)
+{
+if(i%2==0)
+{
+System.out.println(i+" is a even number");
+}
+else{
+System.out.println(i+" is odd number");
+
+}
+}
+}
+}
+
+
+6. WAP TO COUNT EVEN NUMBERS BETWEEN 1 TO 50 ?
+Ans ➖
+—-----
+class Demo
+{
+public static void main(String []chandu)
+{
+int count=0;
+for(int i=1;i<=50;i++)
+{
+if(i%2==0)
+{
+count++;
+}
+} 
+System.out.println(" even numbers count is "+count);
+}
+}
+
+7. WAP TP COUNT EVEN,ODD NUMBERS BETWEEN 1TO 50 ?
+ANS ➖
+class Demo
+{
+public static void main(String []chandu)
+{
+int ecount=0;
+int ocount=0;
+for(int i=1;i<=50;i++)
+{
+if(i%2==0)
+{
+ecount++;
+}
+else{
+ocount++;
+}
+}
+System.out.println(ecount);
+System.out.println(ocount);
+}
+}
+
+TASK ➖
+—---------
+WAP TO COUNT THE NUMBERS BETWEEN 45 TO 91 WHICH IS DIVISIBLE BY 3 AND 5 ?
+ WAP TO COUNT THE NUMBERS BETWEEN 121 TO 241 WHICH IS DIVISIBLE BY  3 AND 8 ?
+ Q. WAP TO PRINT A TO Z APLHABETS ?
+
+
+
+	
+INFINITE FOR LOOP ➖
+—------------------------------------
+SYNTAX ➖-
+—------------------
+for(;;)
+{
+//statement
+}
+
+Ex:-
+—----
+
+
+class Demo
+{
+public static void main(String []args)
+{
+for(;;)
+{
+System.out.println("magneq");
+}
+}
+}
+
+NESTED IF ➖
+—--------------------
+If inside another if  is known as “ nested if “
+
+Ex:- outer if condition false
+—---
+class Demo
+{
+public static void main(String []args)
+{
+if(false)
+{
+System.out.println("outer if");
+if(false)
+{
+System.out.println(" inner if");
+}
+else{
+System.out.println(" inner else");
+}
+}
+else{
+System.out.println("outer else");
+}
+}
+}
+
+op:-outer else
+Outer if condition true ➖
+—---------------------------------
+class Demo
+{
+public static void main(String []args)
+{
+if(true)
+{
+System.out.println("outer if");
+if(false)
+{
+System.out.println(" inner if");
+}
+else{
+System.out.println(" inner else");
+}
+}
+else{
+System.out.println("outer else");
+}
+}
+}
+Op:-
+—-
+Outer if
+Inner else
+
+
+NOTE ➖
+—-----------
+When if else blocks contain only one print statement then not mandatory to write curly
+Braces.
+
+Ex:-
+—-
+class Demo
+{
+public static void main(String []args)
+{
+int a=10;
+if(a>100)
+System.out.println("HII");
+else
+System.out.println("BYE");
+}
+}
+Op:-
+—-
+BYE
+
+
+
+
+                                        
+
+
+
+
+                                                   SWITCH STATEMENTS 
+—------------------------------------------------------------------------------------------------------------------------
+ It will not check any condition .it will check for option matching.
+
+
+Syntax ➖
+—------------
+switch(coption)
+{
+Case  1  : statement;
+Case  2; statement ;
+Case 3 :statement;
+}
+Example ➖
+—-----------------
+class Sample
+{
+public static void main(String [] args)
+{
+int day=5;
+switch(day)
+{
+case 1: System.out.println("sunday");
+case 2: System.out.println("monday");
+case 3: System.out.println("tuesday");
+case 4: System.out.println("wednesday");
+case 5: System.out.println("thurday");
+case 6: System.out.println("friday");
+case 7: System.out.println("saturday");
+}
+}
+}
+Op:-
+—--
+thurday
+friday
+saturday
+
+
+
+
+BREAK ➖
+—---------
+It is used to stop the flow of switch case
+Each and every case in switch we have to break keyword
+Ex:-
+—---
+class Sample
+{
+public static void main(String [] args)
+{
+int day=4;
+switch(day)
+{
+case 1: System.out.println("sunday"); break;
+case 2: System.out.println("monday");break;
+case 3: System.out.println("tuesday");break;
+case 4: System.out.println("wednesday");break;
+case 5: System.out.println("thurday");break;
+case 6: System.out.println("friday");break;
+case 7: System.out.println("saturday");break;
+}
+}
+}
+
+
+Op:- 
+—---
+ Wednesday
+
+
+Ex:-
+—---
+class Sample
+{
+public static void main(String [] args)
+{
+int day=10;
+switch(day)
+{
+case 1: System.out.println("sunday"); break;
+case 2: System.out.println("monday");break;
+case 3: System.out.println("tuesday");break;
+case 4: System.out.println("wednesday");break;
+case 5: System.out.println("thurday");break;
+case 6: System.out.println("friday");break;
+case 7: System.out.println("saturday");break;
+default : System.out.println(" invalid option ");
+}
+}
+}
+
+
+op: 
+—--
+Invalid option
+
+
+NOTE ➖
+—--------------
+In switch cases arithmetic operators is allowed
+class Sample
+{
+public static void main(String [] args)
+{
+int day=3;
+switch(day)
+{
+case 0+1: System.out.println("sunday"); break;
+case 1+1: System.out.println("monday");break;
+case 10-7: System.out.println("tuesday");break;
+case 2*2: System.out.println("wednesday");break;
+case 7-2: System.out.println("thurday");break;
+case 2*2+2: System.out.println("friday");break;
+case 10-3: System.out.println("saturday");break;
+default : System.out.println(" invalid option ");
+}
+}
+}
+
+
+NOTE ➖
+—-------------
+In  switch duplicates is not allowed
+
+
+Ex:-
+—--
+class Sample
+{
+public static void main(String [] args)
+{
+int day=1;
+switch(day)
+{
+case 1: System.out.println("sunday"); break;
+case 2: System.out.println("monday");break;
+case 3: System.out.println("tuesday");break;
+case 4: System.out.println("wednesday");break;
+case 5: System.out.println("thurday");break;
+case 6: System.out.println("friday");break;
+case 5: System.out.println("saturday");break;
+default : System.out.println(" invalid option ");
+}
+}
+}
+
+
+Op:-
+—--
+CTE
