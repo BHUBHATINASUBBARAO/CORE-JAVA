@@ -1,0 +1,195 @@
+DATA TYPES 
+—---------------------------------
+Data type which specify what type of data need to be store inside the memory block.
+There are 2 types of data types
+		1.primitive data type
+		2. Non primitive data type
+
+
+
+
+Primitive data type ➖
+—--------------------------------
+Primitive data types is also known as “ pre defined data types”
+There are 8 types of primitive data types
+These 8 are our keywords
+EX:-
+—--
+
+
+
+
+
+2.NON PRIMITIVE DATA TYPE 
+—--------------------------------------
+Non primitive data types is also known as  “class type “
+For non primitive data types memory will be allocated during execution time 
+Ex:- Strings, arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VARIABLES 
+—---------------------
+* Variables are the memory blocks or container.
+* variables are used to store the data inside the memory blocks
+* once we store the data we can reuse n -number of times
+
+
+CHARACTERISTICS OF VARIABLES ➖
+—------------------------------
+
+
+  Int a=10
+
+
+Int —--------> data type
+a  —--------> variable name
+Size —-----> 4bytes 
+value—------> 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variables are involved in 3 steps ➖
+—---------------------------------------
+VARIABLE DECLARATION ➖
+—-----------------------------------------------
+SYNTAX -   data type var-name;
+Ex:-  int   a;
+Char ch;
+String s;
+
+
+Variable initialization ➖
+—-------------------------------------
+Syntax :- var name=value;
+ 	a=10;
+	ch=’h’;
+	s=”james gosling”
+
+
+Variable utlization ➖
+—------------------------------------
+System.out.println(a);
+System.out.println(ch);
+System.out.println(s);
+
+
+Variables are 2 types 
+LOCAL VARIABLE
+GLOBAL VARIABLE
+		1.  STATIC VARIABLE
+		2. NON STATIC VARIABLE
+
+
+1.LOCAL VARIABLES ➖
+—---------------------------------
+ If user or programmer has  declared any variable inside the method ,block or constructor
+Is known as “ local variables “
+*  the scope of local variables is inside the particular block where we have declared
+For local variables before utilization initialization is mandatory
+
+
+
+
+Ex:-
+—-
+class Demo
+{
+public static void main(String []manoj)
+{
+int a;
+a=10;
+System.out.println(a);
+String s;
+s="james gosling";
+System.out.println(s);
+}
+}
+
+
+Ex:-
+—--
+class Demo
+{
+public static void main(String []manoj)
+{
+int a=420;
+String s="james gosling";
+System.out.println(s+" is a "+a);
+}
+}
+Op:-
+—-- 
+James gosling is a 420
+
+
+RE-INTIALIZATION ➖
+—-----------------------------
+ If user or programmer wants to modify the value from existing value
+Then we have to for “ reintialization “
+Ex:-
+—-
+class Demo
+{
+public static void main(String []manoj)
+{
+String name="maya";
+System.out.println(name);
+name="sheela";
+System.out.println(name);
+}
+}
+
+
+
+
+FINAL ➖
+—-----------
+Final is a keyword
+If user or programmer wants to fix the value through out the programme then we have to use “ final “ keyword while declaring the variable.
+Ex:-
+—--
+class Demo
+{
+public static void main(String []manoj)
+{
+ final String name="kalyani priyadarshini";
+System.out.println(name);
+name=" sai pallavi";
+System.out.println(name);
+
+
+}
+}
+Op:-
+—-
+D:\CORE JAVA>javac Demo.java
+Demo.java:7: error: cannot assign a value to final variable name
+name=" sai pallavi";
+^
+1 error
+
+
+D:\CORE JAVA>
