@@ -1,0 +1,48 @@
+
+
+				SCANNER CLASS 
+—-----------------------------------------------------------------------------------------------------------
+Scanner class is used to read the value from the user at execution time of the programme
+If we want to use the scanner class in the programme 2 statements is mandatory
+Import java.util.Scanner;
+ Scanner sc=new Scanner(System.in);
+
+
+Int —-----> nextInt();
+float—---------->nextFloat();
+String—-------> next();
+char—------->next().charAt(0);
+Ex:-
+—---
+import java.util.Scanner;
+class Voter_Id
+{
+public static void main(String []args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println(" enter your age");
+int age =sc.nextInt();
+System.out.println(" enter your name");
+String name=sc.next();
+System.out.println("enter your surname");
+char surname=sc.next().charAt(0);
+if(age>18)
+{
+System.out.println(surname +"."+name+" you are elijible for voter id");
+}
+else{
+System.out.println(surname+"."+name+" you are not elijable for voter id");
+}
+}
+}
+
+
+Ex:-
+—---
+Wap to print numbers between x to y ?
+Wap to check wether the number is even or not ?
+Wap to print even numbers between x to y ?
+Wap to print odd numbers between x to y ?
+Wap to print even and odd numbers between x to y ?
+Wap to print numbers between 44 to 91 and that number should be divisible by 3 & 5 ?
+Wap to print numbers between x to y and that number should be divisible by 3& 8 ?
