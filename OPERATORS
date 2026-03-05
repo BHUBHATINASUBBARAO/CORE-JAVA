@@ -1,0 +1,350 @@
+OPERATORS
+—------------------------------------------------------------------------------------------------------------------
+* operators are the special symbols ,which is used to perform a specific task or action.
+
+
+
+In java 7 types of operators
+				1.Arithmatic operators
+				2.assignment operators
+				3.relational operators
+				4.logical operators
+				5.ternary operators
+				6.unary operators
+				7. Bitwise operators
+
+
+1.ARITHMATIC OPERATORS ➖
+—-------------------------------------------
+5 types 
+1.addition +
+2.substraction -
+3.multiplication *
+4.division %
+5.division /
+
+
+Ex:-
+—---
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a+b);
+System.out.println(a-b);
+System.out.println(a*b);
+System.out.println(a%b);
+System.out.println(a/b);
+}
+}
+Op:-
+—----
+
+
+D:\CORE JAVA>javac Arithmatic.java
+
+
+D:\CORE JAVA>java Arithmatic
+30
+-10
+200
+10
+0
+
+
+2.ASSIGNMENT OPERATORS ➖
+—-------------------------------------------
+Assignment operators is used to assigning the value to a variable
+We are using operator is “=”.
+Ex:-
+—---
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a);// 10
+a+=10; 
+System.out.println(a);//20
+a*=5; 
+System.out.println(a);//100
+a-=10;    
+System.out.println(a);//90
+b+=a;
+System.out.println(b);//110
+}
+}
+
+
+3.RELATIONAL OPERATORS ➖
+—--------------------------------------------
+Relational operators are used to compare the values of operands.
+
+
+1.GREATER THAN >
+2. LESS THAN<
+3.GREATER THAN OR EQUAL
+4.LESS THAN OR EQUAL
+5. DOUBLE EQUALS ==
+6.NOT EQUALS !=
+
+
+Ex:-
+—---
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a>b);
+System.out.println(a<b);
+}
+}
+
+
+
+
+Op:-
+—--
+False
+True
+
+
+NOTE ➖
+—-----------
+the resultant output for relational operators is boolean ( true,fasle )
+In relational operators we can use assignment operators.
+Ex:-
+—-
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a>b);//false
+a+=10;
+System.out.println(a!=b);//false
+System.out.println(a==b);//true
+}
+}
+
+
+
+
+
+
+
+
+Ex:3-
+—-----
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a>b);//false
+a+=10;
+System.out.println(a!=b);//false
+System.out.println(a==b);//true
+b*=5;
+a*=10;
+System.out.println(a>=b);// true
+System.out.println(a<=b);//false
+
+
+}
+}
+
+
+4. Logical operators ➖
+—---------------------------------
+If user or programmer wants to check multiple conditions then we have to use “ logical operators”.
+There are 2 types 
+			1.AND && 
+			2.   OR ||
+
+
+1.AND ➖
+—------------
+If both the conditions is true then it will return true
+
+
+2.OR ➖
+—-------------
+If any one condition true it will return true
+
+
+I/P	IP	AND		OR
+F          F          F		F
+F          T          F		T
+T          F         F		T
+T          T         T		T
+
+
+EX:-
+—----
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+int c=30;
+System.out.println(a>b&&a>c);
+System.out.println(c>a&&c>b);
+}
+}
+Op:-
+False 
+True
+Ex:-
+—---
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+int c=30;
+System.out.println(b>a||b>c);
+
+
+}
+}
+Op:-
+—--
+ True
+
+
+5. TERNARY OPERATORS ➖
+—--------------------------------------
+It is used to assign the value to the variable based on the condition
+
+
+Syntax :- 
+   Data type var name= condition ? expression1 : expression2;
+
+
+If the condition is true expression 1 will be stored in that variable
+If the condition is false expression2 will be stored in that variable
+Ex:-
+—---
+class Arithmatic
+{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+//String result = a<b ? "nayanathara ": "anushka";
+//int result=a>b? 1:0;
+//char result= a<b? 'T': 'F';
+boolean result= b>a? false:true;
+System.out.println(result);
+}
+}
+
+
+TASK ➖
+—-------
+WAP TO PRINT GREATEST NUMBER AMONG 2 NUMBERS BY USING TERNARY OPERATORS
+WAP TO PRINT GREATEST NUMBER AMONG 4 NUMBERS BY USING TERNARY OPERATORS 
+WAP TO PRINT SMALLEST NUMBER AMONG 4 NUMBER BY USING TERNARY OPERATORS ?
+
+
+
+
+				UNARY OPERATORS 
+—------------------------------------------------------------------------------------------------------------------
+
+UNARY OPERATORS ➖
+—-------------------------------
+ Unary operators are used to increase or decrease the value by 1 in the memory block.
+Unary operators are 2 types
+			1.INCREMENT OPERATOR (++)
+			2. DECREMENT OPERATOR (--)
+
+
+1.INCREMENT OPERATOR (++) ➖
+—--------------------------------------------
+Increment operator is used to increase the value by 1 in the memory block
+There are 2 types of increment operators’
+	1.PRE INCREMENT OPERATOR 
+	2.POST INCREMENT OPERATOR 
+
+
+
+
+
+
+	1.PRE- INCREMENT OPERATOR ++A ➖
+—---------------------------------------------------------------------
+First it will increase the value by 1 in the memory block  then it use the value present in the memory block
+
+
+2.POST-INCREMENT OPERATOR ➖
+—----------------------------------------------------------
+First it will use the value present in the memory block then it will increase the value present in the memory block 
+Ex:-
+—-
+class Unary{
+public static void main(String []args)
+{
+int a=10;
+int b=20;
+System.out.println(a);//10
+System.out.println(++a);//11
+System.out.println(++a);//12
+System.out.println(b);//20
+System.out.println(b++);//20
+System.out.println(b++);//21
+System.out.println(b);//22
+System.out.println(++a + ++b);//36
+}
+}
+
+
+
+
+2.DECREMENT OPERATOR ➖
+—-------------------------------------------
+Decrement operator is used to decrease the value by 1 in the memory block
+Decrement operator is represented by’--’.
+There are 2 types
+
+
+PRE- DECREMENT OPERATOR
+POST DECREMENT OPERATOR
+
+
+PRE DECREMENT OPERATOR  (- - A):- 
+—-----------------------------------------------------------
+First it will decrease the value by 1 in the memory block then it will use the value present in the memory block
+
+
+2.POST-DECREMENT OPERATOR (A - -) ➖
+—-------------------------------------------------------------
+First it will use the value present in the memory block then it will decrease the value by 1 in the memory block
+
+
+Ex:-
+—----
+class Unary{
+public static void main(String []args)
+{
+int a=10;
+int b=10;
+System.out.println(a);//10
+System.out.println(--a);//9
+System.out.println(--a);//8
+System.out.println(b);//10
+System.out.println(b--);//10
+System.out.println(--b);//8
+System.out.println(--a+ ++b);//16
+}
+}
